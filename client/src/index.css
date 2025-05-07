@@ -1,0 +1,53 @@
+:root {
+    --yellow: #ffc107;
+    --red: #dc3545;
+    --green: #198754;
+    --blue: #0d6efd;
+    --purple: #5856d6;
+    --gray: #6b7785;
+}
+
+.navbar-brand img{
+    color: var(--purple);
+}
+
+a,
+.navbar a,
+.dropdown-menu a
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,
+.navbar a:hover,
+.dropdown-menu a:hover {
+  color: var(--purple);
+  border-bottom-color: var(--purple);
+}
+
+.dot {
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.highlight{
+    font-weight: bolder;
+    color: var(--red);
+}
+
+.qualifications{
+    color: var(--purple);
+}
+
+.scroll{
+    overflow-y: auto;
+    max-height: calc(100vh - 7rem);
+}
+
+.scroll-2{
+    overflow-y: auto;
+    max-height: calc(100vh - 12rem);
+}

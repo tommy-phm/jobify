@@ -1,0 +1,27 @@
+[mysql]
+host = "localhost"
+user = "root"
+password = "password"
+database = "database" # Name of database
+
+[vpn]
+enable = false # Enable use of VPN
+path = ''  # Full path to the OpenVPN executable
+max_server = 20  # Maximum number of .ovpn configuration files (VPN servers)
+max_pages = 5  # Maximum number of pages to fetch before switching VPN server
+
+[requests]
+min_delay = 1  # Minimum delay between requests (in seconds)
+max_delay = 3  # Maximum delay between requests (in seconds)
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"
+
+[search]
+keywords = ["Software Engineer"]  # Job titles or keywords to search
+locations = [["United States", "103644278"]]  # List of [location name, geoID] pairs
+f_WT = "1"  # Work type: 1 = Onsite, 2 = Remote, 3 = Hybrid
+timespan = "r86400"  # Time filter for job posts in seconds (e.g., r86400 = past 24 hours)
+max_pages = 40  # Maximum number of search result pages per serach set (LinkedIn hard limit is 40)
+
+[processing]
+enable = true  # Enable job processing
+

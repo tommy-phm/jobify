@@ -1,6 +1,6 @@
 # Jobify
 
-A job search assistant designed to speed up and streamline your job finding. It scrapes job listings from LinkedIn based on your preferences, stores them in a MySQL database, and provides a web interface to organzie postings.
+A job search assistant that streamlines job hunting. It scrapes listings from LinkedIn based on your preferences, filters the results, and provides a web interface to organize job postings.
 
 ![Jobify](jobify.gif)
 ![Home](home.png)
